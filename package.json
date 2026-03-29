@@ -1,0 +1,42 @@
+{
+  "publisher": "local",
+  "name": "paper-light-theme",
+  "displayName": "Paper Light",
+  "description": "A warm, easy-on-the-eyes light theme with monochromatic ink-like text and weighted typography.",
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Paper Light",
+        "uiTheme": "vs",
+        "path": "./themes/paper-light.json"
+      },
+      {
+        "label": "Paper Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/paper-dark.json"
+      },
+      {
+        "label": "Paper Warm",
+        "uiTheme": "vs",
+        "path": "./themes/paper-warm.json"
+      },
+      {
+        "label": "Paper Soft",
+        "uiTheme": "vs",
+        "path": "./themes/paper-soft.json"
+      },
+      {
+        "label": "Paper Cool",
+        "uiTheme": "vs",
+        "path": "./themes/paper-cool.json"
+      }
+    ]
+  }
+}
